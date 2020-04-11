@@ -19,7 +19,7 @@
 #define then 
 #define Do 
 #define repeat do{
-#define until(x) }while(!(x))
+#define until(x) ;}while(!(x))
 #define assign(fileobj,filename,rw) freopen(filename,rw,fileobj);
 #define input stdin
 #define output stdout
@@ -52,5 +52,6 @@
 #define not !
 #define Readln scanf("%*[^\n]%*c");
 #define Writeln putchar('\n');
+#define elif else if
 
 #include<stdio.h>
